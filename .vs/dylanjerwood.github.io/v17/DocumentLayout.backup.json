@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\gcsc.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gcsc.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\elements.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elements.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\generic.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:generic.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\unityanimation.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:unityanimation.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2022-09-15T15:27:05.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "elements.html",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\elements.html",
+              "RelativeDocumentMoniker": "elements.html",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\elements.html",
+              "RelativeToolTip": "elements.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJABAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2022-09-09T13:08:02.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "generic.html",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\generic.html",
+              "RelativeDocumentMoniker": "generic.html",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\generic.html",
+              "RelativeToolTip": "generic.html",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAGAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2022-09-09T13:06:56.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "unityanimation.html",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\unityanimation.html",
+              "RelativeDocumentMoniker": "unityanimation.html",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\unityanimation.html",
+              "RelativeToolTip": "unityanimation.html",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2022-09-09T12:23:39.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "gcsc.html",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\gcsc.html",
+              "RelativeDocumentMoniker": "gcsc.html",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\GitHub\\dylanjerwood.github.io\\gcsc.html",
+              "RelativeToolTip": "gcsc.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2022-09-09T12:23:31.023Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

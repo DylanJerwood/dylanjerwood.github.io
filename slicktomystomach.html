@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Indie Game Dev Portfolio | Dylan Jerwood</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo"><span class="symbol"><span class="title">Dylan Jerwood's Portfolio</span></span> </a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="gcsc.html">GCSC</a></li>
+							<!--<li><a href="interliminal.html">(WIP)InterLiminal</a></li> -->
+							<li><a href="2DManagementGame.html">2DManagementGame</a></li>
+							<li><a href="infiniteswing.html">Infinite Swing</a></li>
+							<li><a href="slicktomystomach.html">Slick to my Stomach</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Slick to my Stomach</h1>
+							<span class="image main"><img src="images/slicktomystomachScreengrab.png" alt=""></span>
+							<p>This project was created by myself and one other team member for the BigMode 2026 9 day game jam hosted on itch.io. This project was my first experience developing a game as part of a team and really helped broaden my skills in design, management and collaboration.</p>
+							<p>This entry into the jam is an arcade arena "trickshot" shooter in the style of a grotesque psx horror game, for this project me and my partner wanted to aim for a satisfying core game loop that fit with the Jams theme as "slick" for this we decided to do a trickshot based wave shooter game where the player scores points depending on the style and amount of tricks.</p>
+							<p>During the community voting period of the Jam our game was consistently in the first page of the most popular reaching a peak of top 5. We received very strong reviews from the community during this time also. At this time the official voting from BigModes judges have not been released.</p>
+							<p>During this project I had learned a lot about designing tight responsive controls in Unity along with experience coding custom shaders for the engine. Despite challenging me technically, I find my biggest takeaway from this Jam is instead the designing of complete satisfying mechanics that provide a deeper, more engaging time with the player. I found a new form of problem solving during this project centered instead around the psychological ways to "scratch an itch" for the player instead of the technical problems with creating an efficient robust environment they can interact with. This new challenge I found to really alter the way I approach creating experiences for the player.</p>
+							<p>
+								Throughout development for this project, I had to learn and implement aspects not previously featured in my previous projects:
+								<ul>
+									<li>Shader development- In this project I had to develop custom shaders in order to achieve 2 specific goals, first we wanted to achieve a PSX style "wobble" in the games assets. This style originally came from a limitation in game hardware, the original playstation couldn't run floating point positions for vertex calculations in a shape but instead relied on fixed integer positions resulting in a "wobbly" shape when the camera moved. As Unity's engine calculated this for us the best way to achieve this style was to create a custom shader that added this back in. The second issue was we wanted a "bottomless pit" in the game that the player couldn't see down, the solution I came up with for this was to create a fullscreen shader that altered the darkness of the environment depending on the Y level that gradually increased in darkness at a certain point down to total darkness at another y level, this created a gradual smooth darkness down the hole.</li>
+									<li>Implementation of shaders in Unity- with the creation of these shaders I also had to learn more about Unity's render system and how shaders are implemented.</li>
+									<li>Expanded more complex movement systems- This project currently has the most complex movement system I have created yet, as it has the basics of running and jumping but also includes sliding, wall jumping and most complex was backflips and front flips along with tracking for each. For this project me and my friend thought it would be cool to be able to do front and backflips, for this I didnt lock the mouse's position to between 90 and -90 degrees up and down when in the air only. This allowed the player to pull the mouse back or push it forward farther than they normally would be able. However as we still needed to be able to lock the players mouse while on the ground a simple state system along with a complex camera controller allowed me to track when the player hits the ground so I could then check the rotation of the camera while normalizing the results to create a smooth "roll" that the player would perform if outside the cameras boundaries.</li>
+									<li>Improved game design- I feel this project expanded on game design choices more than my previous projects in order to create a more fun game. For example, the game can be very fast at times making it harder for the player to control or process the surroundings, this is made harder when enemies are involved. To combat this we implemented an impact time for when the player shoots an enemy to pause for just a moment to give the action more weight and give the player time to process.</li>
+								</ul>
+							</p>
+
+							<p>Feel free to play the game yourself for free:</p>
+							<a href="https://aurant1um.itch.io/slick-to-my-stomach">Link to the games Itch.io page.</a>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+
+							<!-- Menu <section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" >
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" >
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" ></li>
+									</ul>
+								</form>
+							</section>-->
+							
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="https://twitter.com/Dylan_Jerwood" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.youtube.com/channel/UCN4i3_YW_de_sDqfdBd4hXA" class="icon brands style2 fa-youtube"><span class="label">YouTube</span></a></li>
+									<li><a href="https://www.instagram.com/dylanjerwood/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/DylanJerwood" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; 2022 by Dylan Jerwood</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
